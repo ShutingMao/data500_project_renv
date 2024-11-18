@@ -2,6 +2,10 @@ here::i_am(
   "code/01_make_output.R"
 )
 
+library("renv")
+setwd("/Users/shutingmao/Desktop/Y2S1/DATA 550 Github/collaborating_using_renv")
+getwd()
+renv::init()
 set.seed(1)
 random_numbers1 <- rnorm(100)
 
